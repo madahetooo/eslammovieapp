@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--item  one in menu popular -->
+    <item android:id="@+id/action_popular"
+        android:title="@string/action_popular"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+    <!--item  Two in menu Top Rate-->
+    <item android:id="@+id/action_rate"
+        android:title="@string/action_rate"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <!--item  third in menu add to favourite-->
+    <item android:id="@+id/action_favoirate"
+        android:title="@string/action_favoirate"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+</menu>
